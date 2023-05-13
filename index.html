@@ -4,12 +4,106 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="stylesheet" href="src/normalize.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Ecommerce Moda</title>
   </head>
   <body>
     <div id="app">
-      <h1>TypeScript Sandbox</h1>
+      <header>
+        <nav class="navigation">
+          <div>
+            <img
+              class="icon"
+              src="public/icons/icon-menu-burguer.svg"
+              alt="icon-menu"
+            />
+          </div>
+          <ul class="main-menu">
+            <li>MODA MUJER</li>
+            <li>MODA HOMBRE</li>
+            <li>MODA NUEVA COLECCIÓN</li>
+            <li>MODA COLECCIONES ESPECIALES</li>
+          </ul>
+          <div class="icons-wrapper">
+            <img
+              class="icon"
+              src="public/icons/icon-user.svg"
+              alt="icon-menu"
+            />
+            <img
+              class="icon"
+              src="public/icons/icon-heart.svg"
+              alt="icon-heart"
+            />
+            <img
+              class="icon"
+              src="public/icons/icon-shopping-cart.svg"
+              alt="icon-shopping-cart"
+            />
+          </div>
+        </nav>
+      </header>
+      <main>
+        <h1 class="title">NUEVAS COLECCIONES</h1>
+        <section class="grid">
+          <div class="card">
+            <div class="image-wrapper">
+              <img class="image" src="public/media/image-1.jpg" alt="image-1" />
+            </div>
+            <div class="description-wrapper">
+              <p class="description">Camisa</p>
+              <p class="price">25.00 €</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img class="image" src="public/media/image-2.jpg" alt="image-2" />
+            </div>
+            <div class="description-wrapper">
+              <p class="description">Camisa</p>
+              <p class="price">25.00 €</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img class="image" src="public/media/image-3.jpg" alt="image-3" />
+            </div>
+            <div class="description-wrapper">
+              <p class="description">Camisa</p>
+              <p class="price">25.00 €</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img class="image" src="public/media/image-4.jpg" alt="image-4" />
+            </div>
+            <div class="description-wrapper">
+              <p class="description">Camisa</p>
+              <p class="price">25.00 €</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img class="image" src="public/media/image-5.jpg" alt="image-5" />
+            </div>
+            <div class="description-wrapper">
+              <p class="description">Camisa</p>
+              <p class="price">25.00 €</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img class="image" src="public/media/image-6.jpg" alt="image-6" />
+            </div>
+            <div class="description-wrapper">
+              <p class="description">Camisa</p>
+              <p class="price">25.00 €</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
     </div>
-    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
