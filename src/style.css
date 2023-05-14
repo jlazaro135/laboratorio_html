@@ -37,6 +37,13 @@
 
 /* CSS de la tarea */
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background-color: #fff;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -92,7 +99,7 @@
 .icons-wrapper img:hover {
   background-color: #e2e2e2;
   border-radius: 50%;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2npm s ease-in-out;
 }
 
 .title {
